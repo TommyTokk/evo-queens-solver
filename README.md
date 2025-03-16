@@ -31,7 +31,7 @@ Replacement: New population replaces the old one each generation
 ```bash
 make
 ```
-### Running the Program
+### Running the Program
 ```bash
 make run
 ```
@@ -39,7 +39,7 @@ make run
 ```bash
 make clean
 ```
-## Configuration Parameters
+## Configuration Parameters
 The algorithm can be tuned by modifying these parameters in lib.h:
 
 POPULATION_SIZE: Number of individuals in the population (default: 1000)
@@ -55,7 +55,7 @@ Solution representation
 Probability (fitness relative to population)
 Generation when found
 Fitness value
-## Algorithm Variants
+## Algorithm Variants
 The code includes:
 
 genetic_algorithm: The primary implementation using tournament selection
